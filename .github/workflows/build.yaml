@@ -10,7 +10,7 @@ env:
 jobs:
   
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     container:
       image: ghcr.io/usa-reddragon/archlinux-pkgbuild:main@sha256:1698260db60455edabb6da76d3b10a9527885eb10dc9d6032e2db9f5f3bbe5ed 
       options: --privileged
