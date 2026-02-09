@@ -12,7 +12,7 @@ jobs:
   build:
     runs-on: ubuntu-22.04
     container:
-      image: ghcr.io/usa-reddragon/archlinux-pkgbuild:main@sha256:39491d987d818940605cd4a52456fa94397995296bd5924588675c85cb31803a 
+      image: ghcr.io/usa-reddragon/archlinux-pkgbuild:main@sha256:820a0c524713ab873d471d85225a2f2bfec9197df745533734b31876fd5fa1b5 
       options: --privileged
     steps:
     - name: Delete huge unnecessary tools folder
